@@ -7,13 +7,17 @@ Kapfhammer](http://www.cs.allegheny.edu/sites/gkapfham) in the [Department of
 Computer Science](http://www.cs.allegheny.edu) at [Allegheny
 College](http://www.allegheny.edu), the course has the following description:
 
-> An introduction to the principles of computer science with an emphasis on algorithmic problem solving and the
-> realization of algorithms using a modern object-oriented programming language. Topics include algorithms, problem
-> solving, programming, classes, primitive data types and objects, control structures, arrays and vectors, principles of
-> object-oriented design and programming, and an introduction to graphics and graphical user interfaces. The course also
-> includes an overview of the discipline of computer science and a study of the social implications of computer use. May
-> serve as the laboratory course in the Natural Science Division's distribution requirement. One laboratory per week.
-> Prerequisite: Knowledge of elementary algebra.
+> An introduction to the principles of computer science with an emphasis on
+> creative expression through the medium of a programming language.
+> Participating in hands-on activities that often require teamwork, students
+> learn the computational structures needed to solve problems and produce
+> artifacts such as interactive games and computer-mediated art and music.
+> Students also learn how to organize and document a program's source code so
+> that it effectively communicates with the intended users and maintainers.
+> Additionally, the introduction includes an overview of the discipline of
+> computer science and computational thinking. One laboratory per week.
+> Prerequisite: Knowledge of elementary algebra. Distribution Requirements: ME,
+> SP.
 
 The source code of the LaTeX documents uses a custom LaTeX style file and several other packages that are normally
 standard with a modern LaTeX distribution such a TeXLive 2015. All of the slides are programmed with the
