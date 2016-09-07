@@ -99,9 +99,8 @@ assignments and the ``Git Cheatsheet''.
 \vspace*{-.1in}
 \subsection*{Create a New Directory}
 
-In your {\tt cs111F2016-<your user name>} directory type the command ``{\tt mkdir lab2}'' to create a new directory for
-the second laboratory.
-\noindent Type ``{\tt cd lab2}'' to change into this new directory.
+In the {\tt labs} directory of {\tt cs111F2016-<your user name>} type the command ``{\tt mkdir lab2}'' to create a new
+directory for the second laboratory.  \noindent Type ``{\tt cd lab2}'' to change into this new directory.
 
 \vspace*{-.1in}
 \subsection*{Write a Java Program to Perform a Simple Calculation}
@@ -113,7 +112,7 @@ up to you, I ask that it be in good taste and suitable for a classroom setting.
 not} in insert mode. That is, the word ``{\tt --INSERT--}'' should {\em not} appear in the lower left corner. Then, type
 the following exactly as shown; it will appear in the bottom line of the {\tt gvim} window:
 
-\begin{center} \verb$:r../Template.java$ \end{center}
+\begin{center} \verb$:r../../Template.java$ \end{center}
 
 This ``reads'' your {\tt Template.java} file into your new {\tt Lab2} program.  You only need to do this once!  If this
 step did not work correctly for you, then you can also try to copy and paste content from the {\tt gvim} window
@@ -122,23 +121,23 @@ Lab2.java} to include your name, the lab number, date, etc.
 
 In your program for this laboratory assignment you will need to create variables and assign values to them. To create a
 variable you must declare it by specifying its type (e.g., {\tt String}, {\tt boolean}, or {\tt int}) and the name of
-the variable that you chose; for instance, a full example would be ``{\tt int count;}'').  To assign the value to a
+the variable that you chose; so, a full example would be ``{\tt int count;}'').  To assign the value to a
 variable after you have declared it, you need to write an assignment statement using an assignment operator `{\tt =}',
 as, for example, ``{\tt count = 0;}''. You may combine the variable declaration and assignment into one statement as in
 ``{\tt int count = 0;}''. You may print variables by incorporating them into a {\tt print} or {\tt println} statement by
-using `{\tt +}' and the name of the variable as in {\tt System.out.println("My first variable is " + count);}
+using `{\tt +}' and the name of the variable as in ``{\tt System.out.println("My first variable is " + count);}''
 
- Complete the laboratory assignment by writing the Java statements needed to perform several simple arithmetic
- calculations and print the results. See an example below. Obviously, you may not use this example---instead, you should
- creatively implement your own as part of this assignment.
+Complete the laboratory assignment by writing the Java statements needed to perform several simple arithmetic
+calculations and print the results. See an example below. Obviously, you may not use this example---instead, you should
+creatively implement your own as part of this assignment.
 
  \vspace*{-.15in}
 
 \begin{verbatim}
      /* Honor Code: The work I am submitting is a result of my own thinking and efforts.
         Gregory M. Kapfhammer
-        Lab 2 for CMPSC 111 Spring 2016
-        Date: January 27, 2016
+        Lab 2 for CMPSC 111 Fall 2016
+        Date: September 7, 2016
         Purpose: to compute and print the number of yards between the Earth and the moon,
         then print lunar maximum and minimum temperatures in both Celsius and Fahrenheit. */
 
@@ -172,7 +171,10 @@ needs to use at least three different arithmetic operators. }
 \vspace*{-.2in}
 \subsubsection*{Program requirements}
 \noindent Your program must:
+
 \begin{itemize}
+  \itemsep 0em
+
 \item
 Have a  comments header section, containing the Honor Code, your name, lab number, and the purpose statement for the lab.
 These items will not be output since they are comments.
@@ -192,9 +194,10 @@ Use at least three of the five arithmetic operators \verb$+$, \verb$-$, \verb$*$
 Print the values of all variables, once their values are known, with appropriate labels.
 \end{itemize}
 
-
 \noindent In addition, for full credit you must:
 \begin{itemize}
+
+  \itemsep 0em
 
 \item Make sure that the output printed by your program has an aesthetically pleasing appearance---for instance, you
   should have spaces between words and lines should not be longer than the width of the screen, forcing them to ``wrap''
@@ -248,12 +251,12 @@ requirements for graduation at Allegheny College.  This includes all work assign
   laboratory assignments, and the final project).  All students who have enrolled in the College will work under the Honor
 Program.  Each student who has matriculated at the College has acknowledged the following pledge:
 
-\vspace*{-.05in}
+\vspace*{-.1in}
 \begin{quote}
   I hereby recognize and pledge to fulfill my responsibilities, as defined in the Honor Code, and to maintain the
   integrity of both myself and the College community as a whole.
 \end{quote}
-\vspace*{-.05in}
+\vspace*{-.1in}
 
 \noindent It is understood that an important part of the learning process in any course, and particularly one in
 computer science, derives from thoughtful discussions with teachers and fellow students.  Such dialogue is encouraged.
@@ -288,9 +291,16 @@ directory properly.  Additionally, students should submit printed and signed ver
 \end{enumerate}
 \vspace*{-.05in}
 
-Share your program and the output file with me through your Git repository by correctly using ``{\tt git add}'', ``{\tt
-git commit}'', and ``{\tt git push}'' commands. When you are done, please ensure that the Bitbucket Web site has
+Share your program and the output file with me through your Git repository by correctly using the ``{\tt git add}'',
+``{\tt git commit}'', and ``{\tt git push}'' commands. When you are done, please ensure that the Bitbucket web site has
 a {\tt lab2/} directory in your repository with the two files called {\tt Lab2.java} and {\tt output}. You should see
 the instructor if you have questions about assignment submission.
+
+Before completing this assignment, please confirm with the course instructor that you have correctly shared your {\tt
+cs111F2016-<your user name>} repository. To do so, you can click on the ``Settings'' link in the menu on the left-hand
+side of the main page for your Bitbucket repository. Then, find the link called ``Access Management'' and confirm that
+you have given ``Gregory M. Kapfhammer'' write access to your repository. Remember, the course instructor cannot access
+and grade your materials for this laboratory assignment --- and your other practical and laboratory assignments ---
+unless you have correctly shared your repository by following these instructions.
 
 \end{document}
