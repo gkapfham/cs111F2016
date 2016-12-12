@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Set;
 
-public class TeamAssignment 
+public class TeamAssignment
 {
   static final int TEAM_SIZE = 3;
 
